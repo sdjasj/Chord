@@ -1,0 +1,31 @@
+use borsh::{BorshDeserialize, BorshSerialize};
+
+#[derive(BorshSerialize, BorshDeserialize, Debug, Clone)]
+pub struct Counter {
+    pub count_a: u64,
+    pub count_b: u64,
+    pub count_c: u64,
+    pub count_d: u64,
+    pub count_e: u64,
+    pub count_f: u64,
+    pub count_g: u64,
+    pub count_h: u64,
+    pub count_i: u64,
+    pub count_j: u64,
+    pub count_k: u64,
+    pub count_l: u64,
+    pub count_m: u64,
+    pub count_n: u64,
+    pub count_o: u64,
+    pub count_p: u64,
+    pub count_q: u64,
+    pub count_r: u64,
+    pub count_s: u64,
+    pub count_t: u64,
+    pub count_u: u64,
+    pub count_v: u64,
+    pub count_w: u64,
+    pub count_x: u64,
+    pub count_y: u64,
+    pub count_z: u64,
+}
