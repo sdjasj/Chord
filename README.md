@@ -18,7 +18,6 @@ Experiment Data:
 
 ## Experiment Data
 
-```
 The experimental data is stored in the following locations:  
 `Evluation Data/${project_name}/noConflict_tps.log`,  
 `Evluation Data/${project_name}/stress_tps.log`,  
@@ -27,7 +26,6 @@ The experimental data is stored in the following locations:
 - `noConflict_tps.log` contains the TPS and latency data for the no-conflict version of Chord, as mentioned in the paper.
 - `stress_tps.log` contains the TPS and latency data from the official test scripts.
 - `tps.log` contains the TPS and latency data for Chord.
-```
 
 # Quickstart
 
