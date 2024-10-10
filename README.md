@@ -14,14 +14,14 @@ Source Code:
 - **Solana**: The code for Chord's implementation on Solana is primarily located in `Source Code/Solana/tests/`. Files under `Source Code/Solana/ts/` include helper classes and functions related to the main functions.
 
 Experiment Data:
-- All experimental data is located in the `Evluation Data` directory.
+- All experimental data is located in the `Evaluation Data` directory.
 
 ## Experiment Data
 
 The experimental data is stored in the following locations:  
-`Evluation Data/${project_name}/noConflict_tps.log`,  
-`Evluation Data/${project_name}/stress_tps.log`,  
-`Evluation Data/${project_name}/tps.log`.
+`Evaluation Data/${project_name}/noConflict_tps.log`,  
+`Evaluation Data/${project_name}/stress_tps.log`,  
+`Evaluation Data/${project_name}/tps.log`.
 
 - `noConflict_tps.log` contains the TPS and latency data for the no-conflict version of Chord, as mentioned in the paper.
 - `stress_tps.log` contains the TPS and latency data from the official test scripts.
